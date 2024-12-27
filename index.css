@@ -214,3 +214,51 @@ h2{
     text-align: left;
     padding-right: 31px;
 }
+
+@media (width >= 560px) {
+    .wrapper{
+        background: white;
+        max-width: 735px;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 8.68055555556%;
+        margin-bottom: 2.5%;
+    }
+    body{
+        background-color: var(--stone-150);
+    }
+    header{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .img__recipe{
+        max-width: 655px;
+        padding: 40px;
+        border-radius: 50px;
+        overflow: hidden;
+        padding-bottom: 35px;
+    }
+    header,
+    main,
+    footer{
+        max-width: 735px;
+        margin: 0 auto;
+    }
+
+    .recipe{
+        margin-left: 10px;
+    }
+
+    .recipe__name__text{
+        margin-top: 0;
+        font-size: 2.5em;
+    }
+
+    .recipe__preparation__time{
+        margin-top: 35px;
+    }
+
+    .recipe__ingridients{
+        padding-top: 16.5px;
+    }
+}
